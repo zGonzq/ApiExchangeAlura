@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Conversor conversor = new Conversor();
         Scanner scanner = new Scanner(System.in);
-        Map<String, Double> tasas = null;
+        Map<String, Double> tasas;
 
         System.out.println("***************************************************");
         System.out.println("Bienvenido al Conversor de Moneda");
